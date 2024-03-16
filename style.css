@@ -6,7 +6,15 @@ body {
 
 }
 
-
+#yay {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 100;
+}
 .overlay {
     position: absolute;
     top: 0;
@@ -15,6 +23,8 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
+}
+#important_information {
 
 }
 .container {
@@ -25,7 +35,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation: bgChange 20s linear infinite;
+    /* animation: bgChange 20s linear infinite; */
 }
 
 @keyframes bgChange {
@@ -162,6 +172,7 @@ a#header-links:hover {
     font-size: 40px;
     color: white;
     font-family: "Helvetica", "Roboto", sans-serif;
+    padding-top: 300px;
 }
 #tech:after {
     content: "";
